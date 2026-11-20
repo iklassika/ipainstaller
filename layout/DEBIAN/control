@@ -1,13 +1,13 @@
 Package: com.autopear.installipa
 Version: 3.4.1
 Architecture: iphoneos-arm
-Pre-Depends: firmware (>= 4.0), gsc.armv7
-Section: Utilities
+Pre-Depends: firmware (>= 5.1)
+Section: Development
 Priority: optional
-Description: Install IPA from the command line.
-Tag: role::enduser, purpose::console
+Description: Embeddable library to install, inspect and back up IPA files.
+ Tag: role::developer, purpose::library
 Author: Merlin
-Name: IPA Installer Console
+Name: IPA Installer Library
 dev: lonelystars
 Maintainer: BigBoss <bigboss@thebigboss.org>
 Sponsor: thebigboss.org <http://thebigboss.org/>
